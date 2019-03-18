@@ -1,0 +1,21 @@
+{
+  "name": "data-structures-and-algorithms-JS",
+  "version": "1.0.0",
+  "description": "A repository for my Data Structures and Algorithms in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --verbose --coverage --watchAll" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kcils360/data-structures-and-algorithms-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kcils360/data-structures-and-algorithms-JS/issues"
+  },
+  "homepage": "https://github.com/Kcils360/data-structures-and-algorithms-JS#readme"
+}
