@@ -12,4 +12,4 @@ Time: O(n) -- We have to itterate of the full array.
 Space: O(n) -- We start with 1 array, and declare a second, but 2n reduces to n.
 
 ## Solution
-![alt text](../assets/array-reverse.jpg "arrayReverse Wite Board")
+![arrayRevers whiteboard image](../assets/array-reverse.jpg "arrayReverse Wite Board")
