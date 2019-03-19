@@ -13,3 +13,6 @@ Space: O(n) -- We start with 1 array, and declare a second, but 2n reduces to n.
 
 ## Solution
 ![arrayReverse whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/array-reverse.jpg "arrayReverse Wite Board")
+
+### Collaberation
+I worked with Alex White on this whiteboard challenge
