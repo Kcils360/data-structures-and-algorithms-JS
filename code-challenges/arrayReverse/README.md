@@ -12,4 +12,4 @@ Time: O(n) -- We have to itterate of the full array.
 Space: O(n) -- We start with 1 array, and declare a second, but 2n reduces to n.
 
 ## Solution
-![arrayRevers whiteboard image](../assets/array-reverse.jpg "arrayReverse Wite Board")
+![arrayReverse whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/array-reverse.jpg "arrayReverse Wite Board")
