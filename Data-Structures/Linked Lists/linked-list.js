@@ -1,18 +1,19 @@
 'use strict';
 
-let node = require('./node.js');
 
 let LinkList = module.exports = {
-
+node = require('./node.js'),
+  
 //constructor that takes a node
 //head = node
 LinkList(node){
   this.Head = node;
   
   //methods
-  this.insert = (node) => {
-    node.next = Head;
-    this.Head = node;
+  this.insert = (value) => {
+    let nnode = new node(value);
+    nnode.next = this.Head;
+    this.Head = nnode;
   };
   this.includes = (value) => {
     let current = Head;
@@ -23,14 +24,22 @@ LinkList(node){
     current = Head;
     return false;
   };
+  //contains hidden code to return an array of values instead of console.log
   this.print = () => {
     let current = Head;
-    let values = [];
+    // let values = [];
     while(current.next != null){
-      values.push(current.value);
+      console.log(current.value);
+      // values.push(current.value);
       current = current.next;
     }
-    if(current.next == null){values.push(current.value)};
+    if (current.next == null) { console.log(current.value) };
+    // if(current.next == null){values.push(current.value)};
+    // values.forEach(val => { 
+    //   console.log(val)
+    //   return values;
+    // });
+    current = Head;
   };
 }
 };
