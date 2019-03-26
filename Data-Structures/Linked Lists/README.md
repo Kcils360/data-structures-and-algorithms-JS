@@ -20,8 +20,8 @@ A JavaScript implementation of a `Singly Linked List`. Singly Linked Lists conta
 | includes | Takes in a value and returns a boolean depending on if the value is in the `LinkedList` | O(n) | O(1) | LList.includes(99) |
 | print | Prints the `Linked List` to the console | O(n) | O(1) | LList.print() |
 | append | Takes in a value and adds the value as a new node to the end of the `LinkedList` | O(n) | O(1) | Llist.append(99) |
-| insertBefore | Takes in a value and a key, adds a node directly in front of the node with the key value | O(n) | O(1) | Llist.insertBefore(3,2) |
-| insertAfter | Takes in a value and a key, adds a node directly after the node with the key value | O(n) | O(1) | Llist.insertBefore(3,4) |
+| insertBefore | Takes in a Value and a Key, adds a new `Node` with Value directly in front of the `Node` with the Key value | O(n) | O(1) | Llist.insertBefore(3,2) |
+| insertAfter | Takes in a Value and a Key, adds a new `Node` with Value directly after the `Node` with the Key value | O(n) | O(1) | Llist.insertBefore(3,4) |
 
 
 ------------------------------
