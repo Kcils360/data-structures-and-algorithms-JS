@@ -57,4 +57,4 @@ A JavaScript implementation of a `Singly Linked List`. Singly Linked Lists conta
 ------------------------------
 
 ## Change Log
-1.1 --
+1.1 -- Added append, insertBefore and insertAfter methods. 3/25/18
