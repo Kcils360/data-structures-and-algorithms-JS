@@ -41,5 +41,48 @@ LinkList(node){
     // });
     current = Head;
   };
+
+  this.append = (value) => {
+    let nnode = new node(value);
+    let current  = Head;
+    while(current.next !== null){
+      cuerrent = current.next;
+    }
+    current.next = nnode;    
+  };
+
+  this.insertAfter = (key, value) => {
+    let nnode = new node(value);
+    let current = Head;
+    while(current.next !== null){
+      if(current.value === key){
+        if(insert(current, nnode)){
+          return true;
+        };
+      }
+      current = current.next;
+    }
+    return false;
+  };
+
+  this.insertBefore = (key, value) => {
+    let nnode = new node(value);
+    let current = Head;
+    while(current.next !== null){
+      if(current.next.value === key){
+        if(insert(current, nnode)){
+          return true;
+        };
+      }
+      current = current.next;
+    }
+    return false;
+  };
+
+  const insert = function(current, nnode){
+    nnode.next = current.next;
+    current.next = nnode;
+  }
+  
 }
 };
