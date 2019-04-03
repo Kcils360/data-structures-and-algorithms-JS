@@ -22,10 +22,14 @@ Write a function that takes a string as its only argument, and returns a boolean
 
 ------------------------------
 
-## Visuals
 
-##### Algorithm
+## Algorithm
 We start a for loop over the string, and first check to see if it matches an opening bracket `{` | `[` | `(`  If it does, we pop that value onto the stack.  The next value check is to see if it matches a closing bracket `}` | `}` | `)` If it does, we send it to it's corrosponding case in a switch statement which calls a helper function. The helper function compares the opposit of that value to what's on the top of the stack.  If they match, we pop the stack and move on.  If no match, we return `false` and that signifies the string is not balanced and the program ends.  If we get to the end of the string without returning false, the string is balanced and we return true.
+
+------------------------------
+
+
+## Visuals
 
 ![alt text](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/multibracket.jpg "multiBracketValidation.jpg")
 
