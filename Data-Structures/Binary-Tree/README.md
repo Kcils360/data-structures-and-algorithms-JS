@@ -8,7 +8,7 @@
 
 ## Description
 
- A JavaScript implementation of a `Binary Tree`. Binary Trees contain individual nodes that have a reference to the `Left` child node and the `Right` child node. The methods on this `Binary Tree` are `preOrder`, `postOrder`, and `inOrder`.
+- A JavaScript implementation of a `Binary Tree`. Binary Trees contain individual nodes that have a reference to the `Left` child node and the `Right` child node. The methods on this `Binary Tree` are `preOrder`, `postOrder`, and `inOrder`.
 The `Binary Search Tree` contains two methods `add` and `contains`. 
 ------------------------------
 
