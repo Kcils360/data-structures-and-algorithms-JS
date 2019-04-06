@@ -29,23 +29,23 @@ The `Binary Search Tree` contains two methods `add` and `contains`.
 ## Approach 
 
 ##### preOrder Method
-- The preOrder Method takes in a `node` as a parameter, then recursivly runs thru each child node and prints their value to the console.
+- The preOrder Method takes in a `node` as a parameter, then recursively runs thru each child node and prints their value to the console.
 
 *No image available*
 ##### postOrder Method
-- The postOrder Method takes in a `node` as a parameter, then recursivly runs thru each child node and prints their value to the console.
+- The postOrder Method takes in a `node` as a parameter, then recursively runs thru each child node and prints their value to the console.
 
 *No image available*
 ##### inOrder Method
-- The inOrder Method takes in a `node` as a parameter, then recursivly runs thru each child node and prints their value to the console.
+- The inOrder Method takes in a `node` as a parameter, then recursively runs thru each child node and prints their value to the console.
 
 *No image available*
 ##### add Method
-- The add Method takes in a value as a parameter, creates a new `node`, and recursivly moves thru the tree until it finds the appropriate location to store the new `node`.
+- The add Method takes in a value as a parameter, creates a new `node`, and recursively moves thru the tree until it finds the appropriate location to store the new `node`.
 
 *No image available*
 ##### contains Method
-- The InsertBefore Method takes in a value as a parameter, and recursivly moves thru the tree checking if the value exists in the tree.  It returns an appropriate boolean.
+- The InsertBefore Method takes in a value as a parameter, and recursively moves thru the tree checking if the value exists in the tree.  It returns an appropriate boolean.
 
 *No image available*
 
