@@ -5,18 +5,36 @@ const node = require('./node.js');
 module.exports = class binaryTree {
   root = null;
 
-  constructor(){
+  constructor() {
 
-    function preOrder(params) {
-      
+    function preOrder(node) {
+      console.log(node.value);
+      if (node.left !== null) {
+        preOrder(node.left);
+      }
+      if (node.right !== null) {
+        preOrder(node.right);
+      }
     }
 
-    function postOrder(params) {
-      
+    function postOrder(node) {
+      if (node.left !== null) {
+        preOrder(node.left);
+      }
+      if (node.right !== null) {
+        preOrder(node.right);
+      }
+      console.log(node.value);
     }
 
-    function inOrder(params) {
-      
+    function inOrder(node) {
+      if (node.left !== null) {
+        preOrder(node.left);
+      }
+      console.log(node.value);
+      if (node.right !== null) {
+        preOrder(node.right);
+      }
     }
 
   }
@@ -27,41 +45,41 @@ module.exports = class binaryTree {
 
 }
 
-module.exports = class binarySearchTree{
+module.exports = class binarySearchTree {
   root = null;
 
-  constructor(){
+  constructor() {
 
-    function add(node, value){
+    function add(node, value) {
       let newNode = new node(value);
-      if(this.root.value == null){ this.root = newNode};
-      if(node.value > value){
-        if(node.left == null){
+      if (this.root.value == null) { this.root = newNode };
+      if (node.value > value) {
+        if (node.left == null) {
           node.left = newNode;
         }
-        else{
+        else {
           node = node.left;
           return add(node, value);
         }
       }
-      if(node.value < value){
-        if(node.right == null){
+      if (node.value < value) {
+        if (node.right == null) {
           node.right = newNode;
         }
-        else{
+        else {
           node = node.right;
           return add(node, value);
         }
       }
     }
 
-    function contains(node, value){
-      if(node.value == value){ return true };
-      if(node.value > value){
+    function contains(node, value) {
+      if (node.value == value) { return true };
+      if (node.value > value) {
         node = node.left;
         return contains(node, value);
       }
-      if(node.value < value){
+      if (node.value < value) {
         node = node.right;
         return contains(node, value);
       }
