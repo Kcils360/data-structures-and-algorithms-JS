@@ -1,7 +1,7 @@
 # ***Data Structure Implementation***
 ------------------------------
 
-# Binay Tree
+# Binary Tree
 #### *Author: Gregory Dukes*
 
 ------------------------------
