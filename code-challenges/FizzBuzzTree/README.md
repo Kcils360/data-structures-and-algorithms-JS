@@ -15,5 +15,5 @@ Time: O(n) -- We have to hit every node.
 Space: O(1) -- Nothing exra created.
 
 ## Solution
-![FizzBuzz Tree whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/binary-search.jpg "FizzBuzz Tree White Board")
+![FizzBuzz Tree whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/FizBuzTre.jpg "FizzBuzz Tree White Board")
 
