@@ -9,6 +9,7 @@ First we instantiate a new queue.  Next, we perform a null check on the trees ro
 
 ## Efficiency
 Time: O(n) -- We have to hit every node.
+
 Space: O(w) -- Where w = the width of the tree.
 
 ## Solution
