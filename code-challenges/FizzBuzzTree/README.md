@@ -12,7 +12,7 @@ The first thing is to determine if the tree is valid. If it is, I call a helper 
 
 ## Efficiency
 Time: O(n) -- We have to hit every node.
-Space: O(1) -- Nothing exra created.
+Space: O(h) -- Where h = the height of the tree.
 
 ## Solution
 ![FizzBuzz Tree whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/FizBuzTre.jpg "FizzBuzz Tree White Board")
