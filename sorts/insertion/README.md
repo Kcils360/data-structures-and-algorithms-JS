@@ -16,7 +16,7 @@
 
 | Method | Summary | Big O Time | Big O Space | Example | 
 | :----------- | :----------- | :-------------: | :-------------: | :----------- |
-| name | returns  | O(n^2) | O(1) | sort(array); |
+| sort | returns `array`  | O(n^2) | O(1) | sort(array); |
 
 
 
