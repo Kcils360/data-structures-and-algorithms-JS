@@ -24,8 +24,8 @@
 
 ## Approach 
 
-##### preOrder Method
-- The preOrder Method takes in a `node` as a parameter, then recursively runs thru each child node and prints their value to the console.
+##### Insertion Sort
+- Takes in an unsorted array, then sorts it using the insertion alogrithm and returns the sorted array.
 
 *No image available*
 
