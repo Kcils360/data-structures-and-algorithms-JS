@@ -10,4 +10,5 @@ function sort(array){
     }
     arr[j+1] = anchor;
   }
+  return array;
 }
