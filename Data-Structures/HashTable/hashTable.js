@@ -32,10 +32,14 @@ class hashTable{
   contains(key){
     //returns a boolean, is key in the hash table
     let find = hash(key);
-    if (!this.arr[find]) {
-      return false;
+    if (this.arr[find]) {
+      let temp = arr[find].values();
+      for(let i=0; i < temp.length; i++){
+       if(temp[i] == find){
+         return true;
+      }
     }
-    return true;
+    return false;
   }
 
 }
