@@ -13,4 +13,4 @@ Time: O(n) -- `.split()` is an O(n) operation, and then n to iterate over the ar
 Space: O(n) -- We create both a new array of n length and a `Hash Table`, potetially n length also.  
 
 ## Solution
-![repeatedWord whiteboard image](https:// "repeatedWord White Board")
+![repeatedWord whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/repeatedWord.jpg "repeatedWord White Board")
