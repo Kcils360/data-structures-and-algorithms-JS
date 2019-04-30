@@ -13,4 +13,4 @@ Time: O(n) -- We have to hit every node in both trees.
 Space: O(n) -- We create a hash table that is the size of one tree, we also create an array that could potentially be the size of one tree.  
 
 ## Solution
-![treeIntersection whiteboard image]( "treeIntersection White Board")
+![treeIntersection whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/treeInterseciton.jpg "treeIntersection White Board")
