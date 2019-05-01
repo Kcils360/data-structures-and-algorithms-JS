@@ -20,4 +20,4 @@ Time: O(n)
 Space: O(n)
 
 ## Solution
-![leftJoin whiteboard image]( "leftJoin White Board Image")
+![leftJoin whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/leftJoin.jpg "leftJoin White Board Image")
