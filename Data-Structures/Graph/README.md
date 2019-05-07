@@ -21,6 +21,7 @@ A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `V
 | addUndirectedEdge() | Adds a new `Undirected Edge` to the `Graph` | O(1) | O(1) | graph.addUndirectedEdge(1,2,99) |
 | getVertices() | returns an array of `Vertices` | O(n) | O(n) | graph.getVertices() |
 | getNeighbors() | returns an array of `Vertices` | O(n) | O(n) | graph.getNeighbors(1) |
+| breadthFirst() | returns an array of values | O(nm) | O(n) | graph.breadthFirst(1) |
 | print() | Prints a visual representation of each `Vertex` and `Edge` with `weight` to the console | O(n) | O(1) | graph.print() |
 
 ------------------------------
@@ -47,6 +48,11 @@ A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `V
 - The getNeighbors method takes in a vertex as a parameter and returns an array of all the vertices that are connected to it by an edge.
 
 *No image available*
+
+#### breadthFirst 
+- The breadthFirst method takes in a vertex as a starting point. Initialize an array to hold the values to return, and a queue for temporary vertex storage.  While the queue is not empty, we dequeue the first node in the queue, adding the value to the output array, set the vertex's `Visited` property to `true`, then enqueue any adjacent vertices.  When the queueue is empty, we have traversed the whole graph.
+
+[Whiteboard Image of method](../../assets/graph_breadthFirst.jpg)
 #### Print Method
 - The Print Method console.logs each Vertex and Edge with weight to the console.
 
