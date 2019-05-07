@@ -12,4 +12,4 @@ Time: O(n) -- We have to hit each vertex at least once, then we potientially hit
 Space: O(n) -- We create several arrays during the process.
 
 ## Solution
-![Graph Get-Edges whiteboard image]( "Graph Get-Edges White Board")
+![Graph Get-Edges whiteboard image](https://github.com/Kcils360/data-structures-and-algorithms-JS/blob/master/assets/get-edges.jpg "Graph Get-Edges White Board")
