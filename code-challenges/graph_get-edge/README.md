@@ -9,6 +9,7 @@ The first thing is to declare an output value for the total cost of the trip.  N
 
 ## Efficiency
 Time: O(n) -- We have to hit each vertex at least once, then we potientially hit every value in the array, pluys the time of each adjacency list lookup.
+
 Space: O(n) -- We create several arrays during the process.
 
 ## Solution
