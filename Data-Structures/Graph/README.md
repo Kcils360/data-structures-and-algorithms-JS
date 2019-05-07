@@ -8,7 +8,7 @@
 
 ## Description
 
-A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `Vertices` that have a `Value`. The `Graph` also has an `Adjacency List` which contains all the connections between `Vertices` and each `Edge` contains a reference to its staring `Vertex`, ending `Vertex` and potentially its `Weight`. The methods on this `Graph` are `addVertex`, `addDirectedEdge`, `addUndirectedEdge`, `getVertices`, `getNeighbors`, and `print`.
+A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `Vertices` that have a `Value`. The `Graph` also has an `Adjacency List` which contains all the connections between `Vertices` and each `Edge` contains a reference to its starting `Vertex`, ending `Vertex` and potentially its `Weight`. The methods on this `Graph` are `addVertex`, `addDirectedEdge`, `addUndirectedEdge`, `getVertices`, `getNeighbors`, and `print`.
 
 ------------------------------
 
