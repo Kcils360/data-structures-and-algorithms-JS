@@ -52,9 +52,9 @@ A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `V
 #### breadthFirst 
 - The breadthFirst method takes in a vertex as a starting point. Initialize an array to hold the values to return, and a queue for temporary vertex storage.  While the queue is not empty, we dequeue the first node in the queue, adding the value to the output array, set the vertex's `Visited` property to `true`, then enqueue any adjacent vertices.  When the queueue is empty, we have traversed the whole graph.
 
-[Whiteboard Image of method](../../assets/graph_breadthFirst.jpg)
-#### Print Method
-- The Print Method console.logs each Vertex and Edge with weight to the console.
+[Whiteboard Image of breadthFirst method](../../assets/graph_breadthFirst.jpg)
+#### print method
+- The print method console.logs each Vertex and Edge with weight to the console.
 
 *No image available*
 
