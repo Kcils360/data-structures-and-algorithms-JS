@@ -1,5 +1,6 @@
 'use strict';
 
+const Queue = require('../Stacks-And-Queues/Queue.js');
 const Vertex = require('./vertex.js');
 const Edge = require('./edge.js');
 
@@ -34,6 +35,23 @@ module.exports = class graph {
 
   getNeighbors(vertex) {
     return [...this.adjacencyList.get(vertex)];
+  }
+
+  breadthFirst(vertex){
+    let values = [];
+    let que = new Queue();
+    que.Enqueue(vertex);
+    while(que.Front){
+      let node = que.Dequeue;
+      values.push(node.value);
+      node.visited = true;
+      for(var i in getNeighbors(node)){
+        if(!i.visited){
+          que.Enqueue(i);
+        }
+      }
+    }
+    return values;
   }
 
   print() {
