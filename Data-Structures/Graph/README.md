@@ -27,27 +27,27 @@ A JavaScript implementation of a `Graph`. A `Graph` is a structure made up of `V
 
 ## Visuals
 
-##### addVertex method
+#### addVertex method
 - The addVertex method takes in a value as a parameter, then creates a new vertex assigning the value to the new vertex value param.  Next, it places the vertex in the adjacency list then incriments the size value of the graph. Inserted!
 
 *No image available*
-##### addDirectedEdge method
+#### addDirectedEdge method
 - The addDirectedEdge method takes in a starting vertex, ending vertex and a weight.  This is a uni-directional edge.  It then adds the edge to the adjacency list between the two vertices.
 
 *No image available*
-##### addUndirectedEdge method
+#### addUndirectedEdge method
 - The addUndirectedEdge method takes in a starting vertex, ending vertex and a weight.  This is a bi-directional edge.  It then adds the edge to the adjacency list between the two vertices.
 
 *No image available*
-##### getVertices method
+#### getVertices method
 - The getVertices method returns an array with the keys of all the vertices in the graph. If the graph has no vertices, it returns null.
 
 *No image available*
-##### getNeighbors method
+#### getNeighbors method
 - The getNeighbors method takes in a vertex as a parameter and returns an array of all the vertices that are connected to it by an edge.
 
 *No image available*
-##### Print Method
+#### Print Method
 - The Print Method console.logs each Vertex and Edge with weight to the console.
 
 *No image available*
