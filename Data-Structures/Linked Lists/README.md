@@ -8,7 +8,7 @@
 
 ## Description
 
-A JavaScript implementation of a `Singly Linked List`. Singly Linked Lists contain individual nodes that have a reference to the `Next` node in the list as well as a `Value`. The methods of this `Linked List` are `lnsert`, `includes` and `print`.
+A JavaScript implementation of a `Singly Linked List`. Singly Linked Lists contain individual nodes that have a reference to the `Next` node in the list as well as a `Value`. The methods on this `Linked List` are `lnsert`, `includes`, `print`, `append`, `insertBefore`, and `insertAfter`.
 
 ------------------------------
 
